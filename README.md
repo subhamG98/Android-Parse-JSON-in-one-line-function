@@ -9,16 +9,17 @@ This repository will help Android developers to make connection with HTTP client
 # Download:
 
 ## Maven:
-<dependency>
-  <groupId>com.dbconnection.subham.dblibrary</groupId>
-  <artifactId>dblibrary</artifactId>
-  <version>1.0</version>
-  <type>pom</type>
-</dependency>
+        <dependency>
+        <groupId>com.dbconnection.subham.dblibrary</groupId>
+        <artifactId>dblibrary</artifactId>
+        <version>1.0</version>
+        <type>pom</type>
+        </dependency>
+
 
 ## Gradle:
 
-#compile 'com.dbconnection.subham.dblibrary:dblibrary:1.0'
+####compile 'com.dbconnection.subham.dblibrary:dblibrary:1.0'
 
 
 ---
