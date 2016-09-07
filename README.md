@@ -5,10 +5,8 @@ This repository will help Android developers to make connection with HTTP client
 ======
 
 
-<img src="https://github.com/subhamG98/view-pager-library/blob/master/ScreenRecorder_Exported_20160905182113.gif" width="400" height="400">
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=https://youtu.be/UoWdr-Fgla8
-" target="_blank"><img src="http://img.youtube.com/vi/https://youtu.be/UoWdr-Fgla8/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+[![Youtube tutorial link](http://img.youtube.com/vi/https://www.youtube.com/watch?v=UoWdr-Fgla8/0.jpg)](http://www.youtube.com/watch?v=https://www.youtube.com/watch?v=UoWdr-Fgla8)
+
 # Download:
 
 ## Maven:
