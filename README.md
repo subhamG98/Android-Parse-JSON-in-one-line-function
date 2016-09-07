@@ -20,8 +20,7 @@ Click on below image to see video tutorial
 
 
 ## Gradle:
-
-####compile 'com.dbconnection.subham.dblibrary:dblibrary:1.0'
+<Code>compile 'com.dbconnection.subham.dblibrary:dblibrary:1.0'</code>
 
 
 ---
