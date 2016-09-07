@@ -28,7 +28,7 @@ Click on below image to see video tutorial
 
 Here you can see the sample java file where you can use this function.
 
-
+<code>
 public class MainActivity extends Activity {
 
     @Override
@@ -50,6 +50,8 @@ public class MainActivity extends Activity {
 
 }
 
+
+</code>
 =====
 
 ##BLOG
