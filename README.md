@@ -29,24 +29,22 @@ Click on below image to see video tutorial
 Here you can see the sample java file where you can use this function.
 
 <code>
-public class MainActivity extends Activity {
 
+
+public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         View v = new MyView(this);
         setContentView(v);
-
         String[] tagnames={"SNO","Paper","Country"}; //These are the keys of the JSON ARRay
         String[] tagtype={"text","text","text"}; //This is type of value, it can be text or image
         String arrayname="seating_plan";// This is the name of array of JSON File
          MyView.setinputdata("http://scrapplabs.esy.es/subham.php",arrayname,tagnames,tagtype,R.layout.list_card_view);
 
-//As you see you need to pass only URL, Name of result array,names of key in JSON key value pairs,And a layout file to see the results.Make sure while making layout files you give id to each elements as p1,p2,p3..... as specifie in tagnames.
+//As you see you need to pass only URL, Name of result array,names of key in JSON key value pairs,And a layout file to see the //results.Make sure while making layout files you give id to each elements as p1,p2,p3..... as specifie in tagnames.
 
-
-    }
+   }
 
 }
 
@@ -55,7 +53,7 @@ public class MainActivity extends Activity {
 =====
 
 ##BLOG
-#Visit guptasubham.blogspot.in for tutorial on using this library.
+Visit <a>guptasubham.blogspot.in</a> for tutorial on using this library.
 ====
 ## License:
 
