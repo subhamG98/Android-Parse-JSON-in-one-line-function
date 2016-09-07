@@ -4,8 +4,9 @@ This repository will help Android developers to make connection with HTTP client
 
 ======
 
+Click on below image to see video tutorial
 
-[![Youtube tutorial link](http://hello45.esy.es/Screenshot%202016-09-07%2016.12.48.png)](http://www.youtube.com/watch?v=https://www.youtube.com/watch?v=UoWdr-Fgla8)
+[![Youtube tutorial link](http://hello45.esy.es/Screenshot%202016-09-07%2016.12.48.png)](https://www.youtube.com/watch?v=UoWdr-Fgla8)
 
 # Download:
 
