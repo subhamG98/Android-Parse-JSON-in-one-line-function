@@ -28,7 +28,7 @@ Click on below image to see video tutorial
 
 Here you can see the sample java file where you can use this function.
 
-        <code>
+        
         
         public class MainActivity extends Activity {
 
@@ -45,7 +45,7 @@ Here you can see the sample java file where you can use this function.
         //As you see you need to pass only URL, Name of result array,names of key in JSON key value pairs,And a layout file to see the //results.Make sure while making layout files you give id to each elements as p1,p2,p3..... as specifie in tagnames.
            }
         }
-        </code>
+        
 
 ##BLOG
 
