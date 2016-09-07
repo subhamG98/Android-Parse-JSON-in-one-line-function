@@ -19,6 +19,7 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
+import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -114,7 +115,12 @@ public class MyView extends LinearLayout {
             protected void onPostExecute(String s) {
                 super.onPostExecute(s);
             //    progressDialog.dismiss();
-                parseJSON(s);
+                try{
+                    parseJSON(s);
+                }
+                catch (Exception e){
+                    Toast.makeText(c1,"Please check your Internet Connection",Toast.LENGTH_LONG).show();
+                }
             }
 
             @Override
@@ -196,9 +202,17 @@ public class MyView extends LinearLayout {
 
     public static void parseJSON(String json){
         try {
-            JSONObject jsonObject = new JSONObject(json);
-            Log.i("jsonarrayr","is-"+json);
-            JSONArray array = jsonObject.getJSONArray(arrayname1);
+            JSONObject jsonObject=null;
+            JSONArray array=null;
+            try {
+                jsonObject = new JSONObject(json);
+                Log.i("jsonarrayr", "is-" + json);
+               array = jsonObject.getJSONArray(arrayname1);
+
+            }
+            catch (Exception e){
+                Log.i("ERROR","INTERNET NOT AVAILABLE");
+            }
 
 
             for(int i=0; i<array.length(); i++){
