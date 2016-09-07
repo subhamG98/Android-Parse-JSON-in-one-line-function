@@ -20,7 +20,7 @@ Click on below image to see video tutorial
 
 
 ## Gradle:
-<Code>compile 'com.dbconnection.subham.dblibrary:dblibrary:1.0'</code>
+<code>compile 'com.dbconnection.subham.dblibrary:dblibrary:1.0'</code>
 
 
 ---
@@ -29,9 +29,8 @@ Click on below image to see video tutorial
 Here you can see the sample java file where you can use this function.
 
 <code>
-
-
 public class MainActivity extends Activity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -50,11 +49,13 @@ public class MainActivity extends Activity {
 
 
 </code>
-=====
 
 ##BLOG
-Visit <a>guptasubham.blogspot.in</a> for tutorial on using this library.
-====
+
+Visit <a> http://guptasubham.blogspot.in </a> for tutorial on using this library.
+
+
+
 ## License:
 
 
